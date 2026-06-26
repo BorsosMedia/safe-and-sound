@@ -1,0 +1,93 @@
+@media (max-width:767px) {
+.menutxt {
+	display: inherit !important;
+}
+.block {
+	margin-bottom: 30px;
+}
+.logo {
+	text-align: center;
+	margin:0 0 15px;
+}
+.logo img {
+	max-width: 80%;
+}
+ul.navbar-nav {
+	float: none !important;
+}
+
+.toptel01 {
+	display: inherit !important;
+}
+.img-holder {
+	text-align: center;
+}
+.hr, .hr2 {
+	width: 15%;
+}
+.carousel-caption{ display:none;}
+ul.navbar-nav li a.menulink, ul.navbar-nav li a.current, ul.navbar-nav li a.current:hover, ul.navbar-nav li a.menulink:hover {
+	font-size: 14px !important;
+	padding: 0 15px !important;
+}
+.featbox
+{
+	float:left;
+	width:100% !important;
+	
+}
+.innerpages .title {
+	font-family: 'Conv_ROCK';	
+	color: #0e746d;
+	font-size:35px;
+	margin: 0 0 7px;
+}
+.innerpages .innerbanner {
+	z-index: 9;
+	height: 220px;
+	overflow: hidden;
+	
+}
+.innerpages .innerbanner img {
+	width: 100%;
+	min-height: 276px !important;
+	object-position: 42% !important;
+	object-fit: cover !important;
+}
+.innerpages-content {
+	position: absolute;
+	width: 100%;
+	padding: 0 0 0px 0;
+	z-index: 9;
+	bottom: 20px;
+}
+}
+
+@media (max-width:1000px) {
+.logo {
+	text-align: center;
+	margin: 0 0 20px;
+}
+.block {
+	margin-bottom: 30px;
+}
+.txt-alignright, .txt-alignleft, .footercontent {
+	text-align: center !important;
+}
+ul.navbar-nav li a.menulink, ul.navbar-nav li a.current, ul.navbar-nav li a.current:hover, ul.navbar-nav li a.menulink:hover {
+	font-size: 11px ;
+	padding: 0 8px;
+}
+.affix {
+	position: static !important;
+}
+.carousel-caption .title{ font-size:180%; margin:0 0 10px;}
+.carousel-caption .title2{ font-size:100%;}
+.mainbanner, .mainbanner img{ min-height:inherit !important; height:auto !important;}
+
+}
+
+@media (max-width:1200px) {
+ul.navbar-nav li a.menulink, ul.navbar-nav li a.menulink:hover, ul.navbar-nav li a.current, ul.navbar-nav li a.current:hover {
+}
+}

@@ -1,0 +1,29 @@
+{
+  "redirects": [
+    { "source": "/index.php", "destination": "/", "permanent": true },
+    { "source": "/about.php", "destination": "/about", "permanent": true },
+    { "source": "/contact.php", "destination": "/contact", "permanent": true },
+    { "source": "/quote.php", "destination": "/quote", "permanent": true },
+    { "source": "/reviews.php", "destination": "/reviews", "permanent": true },
+    { "source": "/gallery.php", "destination": "/gallery", "permanent": true },
+    { "source": "/hour-security-monitoring-services-simcoe-hamilton.php", "destination": "/services/hour-security-monitoring-services-simcoe-hamilton", "permanent": true },
+    { "source": "/residential-security-system-services-simcoe-hamilton.php", "destination": "/services/residential-security-system-services-simcoe-hamilton", "permanent": true },
+    { "source": "/commercial-security-system-services-simcoe-hamilton.php", "destination": "/services/commercial-security-system-services-simcoe-hamilton", "permanent": true },
+    { "source": "/security-system-installation-services-simcoe-hamilton.php", "destination": "/services/security-system-installation-services-simcoe-hamilton", "permanent": true },
+    { "source": "/security-products-sales-service.php", "destination": "/services/security-products-sales-service", "permanent": true },
+    { "source": "/video-security-camera-installation-services-simcoe-hamilton.php", "destination": "/services/video-security-camera-installation-services-simcoe-hamilton", "permanent": true },
+    { "source": "/home-business-security-systems-simcoe-on.php", "destination": "/locations/simcoe", "permanent": true },
+    { "source": "/home-business-security-systems-mississauga-on.php", "destination": "/locations/mississauga", "permanent": true },
+    { "source": "/home-business-security-systems-toronto-on.php", "destination": "/locations/toronto", "permanent": true },
+    { "source": "/home-business-security-systems-hamilton-on.php", "destination": "/locations/hamilton", "permanent": true },
+    { "source": "/home-business-security-systems-london-on.php", "destination": "/locations/london", "permanent": true },
+    { "source": "/home-business-security-systems-brampton-on.php", "destination": "/locations/brampton", "permanent": true },
+    { "source": "/home-business-security-systems-guelph-on.php", "destination": "/locations/guelph", "permanent": true },
+    { "source": "/home-business-security-systems-kitchener-on.php", "destination": "/locations/kitchener", "permanent": true },
+    { "source": "/home-business-security-systems-niagara-falls-on.php", "destination": "/locations/niagara-falls", "permanent": true },
+    { "source": "/4-camera-5mp-system.php", "destination": "/promotions/4-camera-5mp-system", "permanent": true },
+    { "source": "/6-camera-5mp-system.php", "destination": "/promotions/6-camera-5mp-system", "permanent": true },
+    { "source": "/4-camera-4k-system.php", "destination": "/promotions/4-camera-4k-system", "permanent": true },
+    { "source": "/6-camera-4k-system.php", "destination": "/promotions/6-camera-4k-system", "permanent": true }
+  ]
+}

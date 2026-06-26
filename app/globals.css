@@ -1,0 +1,62 @@
+/* Mobile nav open/close transitions */
+
+@media (max-width: 767px) {
+  .mobile-nav-panel {
+    display: block !important;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    visibility: hidden;
+    transform: translateY(-0.5rem);
+    transition:
+      max-height 0.4s ease,
+      opacity 0.3s ease,
+      transform 0.3s ease,
+      visibility 0.4s;
+  }
+
+  .mobile-nav-panel.is-open {
+    max-height: 85vh;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .mobile-nav-toggle .icon-bar {
+    transition:
+      transform 0.3s ease,
+      opacity 0.2s ease,
+      background-color 0.2s ease;
+    transform-origin: center;
+  }
+
+  .mobile-nav-toggle.is-active .icon-bar:nth-child(2) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .mobile-nav-toggle.is-active .icon-bar:nth-child(3) {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+
+  .mobile-nav-toggle.is-active .icon-bar:nth-child(4) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile-nav-panel {
+    max-height: none !important;
+    opacity: 1 !important;
+    overflow: visible !important;
+    visibility: visible !important;
+    transform: none !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mobile-nav-panel,
+  .mobile-nav-toggle .icon-bar {
+    transition: none !important;
+  }
+}
